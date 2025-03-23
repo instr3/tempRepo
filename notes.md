@@ -17,6 +17,11 @@ In this task, the model is given a drum track and generates the remaining instru
 
 For clarity, the drum track is louder than the other instruments. All demos are synthesized with a basic sound engine and no fine-tuned dynamics. Please focus on the musical content, not the mixing quality.
 
+Metrics:
+- **Musicality**: Does it sound good as music?
+- **Adherence**: Does it respect and accurately follow the input conditions?
+- **Creativity**: Given the input conditions, is it creative in its musical decisions?
+
 Task: Others to Drum
 
 In this task, the model is given a complete song without its drum track and generates the missing drum part. No drum prompt is provided. Below is the complete input provided to the model:
@@ -24,3 +29,8 @@ In this task, the model is given a complete song without its drum track and gene
 ...
 
 For clarity, the drum track is louder than the other instruments. All demos are synthesized with a basic sound engine and no fine-tuned dynamics. Please focus on the musical content, not the mixing quality.
+
+Metrics:
+- **Musicality**: Does it sound good as music?
+- **Adherence**: Does it respect and accurately follow the input conditions?
+- **Creativity**: Given the input conditions, is it creative in its musical decisions?
