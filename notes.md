@@ -9,9 +9,16 @@
   - update intermission
 
 ## draft playground
-### Jingwei's welcome message
+### our welcome message
 Welcome to our survey!
-This survey takes 15-20 minutes. You will listen to 6 groups of music generation samples. The order of arrangements within a group is randomized. Please compare each sample and evaluate their music quality. Your feedback is very important to us. Enjoy the music!
+
+This survey features a subjective study of several score (symbolic music) generation model. This survey takes 15-20 minutes. You will listen to 6 groups of music generation samples. Each group will feature one of the following tasks:
+
+(1) Chord-conditioned melody generation (chord to melody)
+(2) Drum-conditioned song generation (drum to others)
+(3) Song-conditioned drum track generation (others to drum)
+
+The order of arrangements within a group is randomized. Please compare each sample and evaluate their music quality. Your feedback is very important to us. Enjoy the music!
 
 NOTE: To ensure the best auditory experience and that all details can be heard, please wear headphones while completing the questionnaire.
 
@@ -19,14 +26,13 @@ All the best,
 SMCLab, NUS
 Music X Lab, NYU Shanghai & MBZUAI
 
-### our welcome message
-Welcome to our survey!
-You will be listening to and evaluating generated music clips. The survey takes approximately 15-20 minutes to complete.
-Your feedback is important to us. Enjoy the music!
+### Transition page
 
+Thanks for your answers. The next section will be:
 
-All the best,
-Music X Lab, MBZUAI
+(1) Chord-conditioned melody generation (chord to melody)
+(2) Drum-conditioned song generation (drum to others)
+(3) Song-conditioned drum track generation (others to drum)
 
 ### Task instructions
 
@@ -55,7 +61,14 @@ In this task, the model is given a complete song without its drum track and gene
 
 For clarity, the drum track is louder than the other instruments. All demos are synthesized with a basic sound engine and no fine-tuned dynamics. Please focus on the musical content, not the mixing quality.
 
-Metrics:
-- **Musicality**: Does it sound good as music?
-- **Adherence**: Does it respect and accurately follow the input conditions?
-- **Creativity**: Given the input conditions, is it creative in its musical decisions?
+### Additional page
+
+Thank you for completing the survey! If you are interested, there are two additional survey questions regarding the task:
+
+Drum-conditioned song generation (drum to others)
+
+Do you want to listen to 2 additional samples and provide some feedbacks?
+
+### Final page
+
+Thank you for completing the additional part of the survey!
