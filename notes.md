@@ -13,7 +13,6 @@
 Welcome to our survey!
 This survey takes 15-20 minutes. You will listen to 6 groups of music generation samples. The order of arrangements within a group is randomized. Please compare each sample and evaluate their music quality. Your feedback is very important to us. Enjoy the music!
 
-
 NOTE: To ensure the best auditory experience and that all details can be heard, please wear headphones while completing the questionnaire.
 
 All the best,
@@ -30,6 +29,11 @@ All the best,
 Music X Lab, MBZUAI
 
 ### Task instructions
+
+Task: Chord to Melody
+
+In this task, the model is given a chord track and generates the melody. It also receives the first 1-2 bars of the melody as a prompt. Below is the complete input provided to the model:
+
 Task: Drum to Others
 
 In this task, the model is given a drum track and generates the remaining instruments to complete the song. It also receives the first 1–2 bars of the full song as a prompt. Below is the complete input provided to the model:
@@ -40,7 +44,7 @@ For clarity, the drum track is louder than the other instruments. All demos are 
 
 Metrics:
 - **Musicality**: Does it sound good as music?
-- **Adherence**: Does it respect and accurately follow the input conditions?
+- **Adherence**: Does it respect and follow the input condition's music structure?
 - **Creativity**: Given the input conditions, is it creative in its musical decisions?
 
 Task: Others to Drum
